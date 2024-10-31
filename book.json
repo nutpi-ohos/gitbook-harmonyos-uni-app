@@ -1,7 +1,7 @@
 {
-  "title": "Gitbook教程",
-  "description": "Gitbook电子书教程",
-  "author": "Breeze",
+  "title": "Flutter for Harmony教程",
+  "description": "Flutter for Harmony电子书教程",
+  "author": "坚果派",
   "language": "zh-hans",
   "root": ".",
   "plugins": [
@@ -49,7 +49,7 @@
     },
     "readmore": {
       "blogId": "27976-1678928361372-483",
-      "name": "大前端之旅",
+      "name": "坚果派",
       "qrcode": "https://luckly007.oss-cn-beijing.aliyuncs.com/images/image-20230316085818226.png",
       "keyword": "鸿蒙坚果"
     },
@@ -89,8 +89,8 @@
     },
     "theme-lou": {
       "color": "#FF4848",
-      "favicon": "assets/favicon.ico",
-      "logo": "assets/logo.png",
+      "favicon": "assets/avatar.png",
+      "logo": "assets/avatar.png",
       "appleTouchIconPrecomposed152": "assets/avatar.png",
       "copyrightLogo": "assets/copyright.png",
       "forbidCopy": true,
@@ -102,7 +102,7 @@
         ".summary .divider"
       ],
       "copyright": {
-        "author": "vx:xjg13690"
+        "author": "vx:nut_pie"
       }
     }
   },
@@ -112,36 +112,22 @@
         {
           "target": "_blank",
           "url": "https://www.gitbook.com/",
-          "name": "gitbook官网"
+          "name": "坚果派官网"
         },
         {
           "target": "_blank",
           "url": "https://www.npmjs.com/package/package",
-          "name": "插件"
+          "name": "ArkUI实战"
         },
         {
           "target": "_blank",
           "url": "https://space.bilibili.com/480883651",
-          "name": "哔哩哔哩"
-        },  {
+          "name": "元服务开发实践"
+        },
+        {
           "target": "_blank",
           "url": "https://blog.51cto.com/jianguo",
-          "name": "51CTO博客"
-        },
-        {
-          "target": "_blank",
-          "url": "https://www.zhihu.com/people/yimi-yang-guang-96-65",
-          "name": "知乎"
-        },
-        {
-          "target": "_blank",
-          "url": "https://juejin.cn/user/3843548384077192",
-          "name": "掘金"
-        },
-        {
-          "target": "_blank",
-          "url": "https://blog.csdn.net/qq_39132095?spm=1001.2101.3001.5343",
-          "name": "CSDN"
+          "name": "OpenHarmony应用开发"
         }
       ],
       "footer": {
