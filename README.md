@@ -32,6 +32,5 @@
 
 ### 致谢
 
-笔者写这本电子书的时候主要参考 OpenHarmony /Flutter官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈，感谢 OpenHarmony 的专家们给做了耐心解答。另外非常感谢在 [https://gitee.com/ark-ui/arkui_in_action](https://gitee.com/ark-ui/arkui_in_action) 上和 QQ （[695438501](https://qm.qq.com/cgi-bin/qm/qr?k=YBDKMU9Lt309QL_I1Lfa2jVpGwx65VSR&jump_from=webapi)）群里给我反馈问题的小伙伴，最后感谢所有为 OpenHarmony 生态建设做出贡献的人，你们是最棒的！
-
+笔者写这本电子书的时候主要参考 OpenHarmony /Flutter官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈，感谢 OpenHarmony 的专家们给做了耐心解答。另外非常感谢在 [https://gitcode.com/nutpi/Flutter_Harmony](https://gitcode.com/nutpi/Flutter_Harmony ) 上和 QQ （[695438501](https://qm.qq.com/cgi-bin/qm/qr?k=YBDKMU9Lt309QL_I1Lfa2jVpGwx65VSR&jump_from=webapi)）群里给我反馈问题的小伙伴，最后感谢所有为 OpenHarmony 生态建设做出贡献的人，你们是最棒的！
 

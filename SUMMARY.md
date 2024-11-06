@@ -4,11 +4,10 @@
 
 * [2.为什么要这个专栏？](为什么要写博客.md)
 
-* 3.Flutter与Dart介绍
-
-  - 3.1Flutter介绍
+* 3.uniapp介绍
+  - 3.1uniapp
   - 3.2Dart介绍
-
+  
 * 4.HarmonyOS/OpenHarmony与ArkTS介绍
 
   - 4.1HarmonyOS Next
@@ -45,31 +44,28 @@
 
 * 10.开发Harmony静态库
 
-  - 
+  - 创建及发布三方库
 
 * 11.鸿蒙适配Flutter三方库
 
   -  ohos平台适配flutter三方库
 
-* 12.性能调优与应用调测
+*  12.性能优化
 
-  - [DevTool使用]()
+  - [12.1DevTool使用]()
 
-  - [性能分析定界(OpenHarmony平台)指南](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-delimitation.md)
-  - [性能分析第一步-梳理线程顺序](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-threads-sequence.md)
-  - [性能分析-帧渲染跟踪](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-frame-rendering-tracking.md)
-  - [性能分析-滑动响应时延](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-sliding-response-time.md)
+  - [12.2性能分析定界(OpenHarmony平台)指南](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-delimitation.md)
+  - [12.3性能分析第一步-梳理线程顺序](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-threads-sequence.md)
+  - [12.4性能分析-帧渲染跟踪](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-frame-rendering-tracking.md)
+  - [12.5性能分析-滑动响应时延](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/05_performance/performance-sliding-response-time.md)
 
 * 13.FAQ
-
-  - [环境相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/environment.md)
+  - [13.1环境相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/environment.md)
   - [ohos引擎产物编译相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/ohos_engine.md)
   - [ohos应用编译相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/ohos_hap.md)
   - [ohos代码开发相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/ohos_code.md)
   - [ohos运行相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/ohos_run.md)
   - [功能开发相关问题](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/04_development/README.md)
   - [解析flutter相关的cppcrash堆栈](https://gitee.com/openharmony-sig/flutter_samples/blob/master/ohos/docs/08_FAQ/flutter_cppcrash_guideline.md)
-
 * 14.迁移实战
-
 * 15.阅读更多
