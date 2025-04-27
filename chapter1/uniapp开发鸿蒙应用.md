@@ -1,0 +1,280 @@
+
+
+今天带着大家一起uni-app for Harmony
+
+![鸿蒙坚果派 副本](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/%E9%B8%BF%E8%92%99%E5%9D%9A%E6%9E%9C%E6%B4%BE%20%E5%89%AF%E6%9C%AC.jpg)
+
+## uni-app
+
+`uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到HarmonyOS、iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。
+
+`uni-app`在开发者数量、案例、跨端抹平度、扩展灵活性、性能体验、周边生态、学习成本、开发成本等8大关键指标上拥有更强的优势。
+
+## 功能框架图
+
+
+
+![img](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/uni-function-diagram-20240523.png)
+
+## HarmonyOS
+
+HarmonyOS 是**新一代智能终端操作系统**。 为不同设备的智能化、互联与协同提供了统一的语言。 设备可实现一碰入网，无屏变有屏，操作可视化，一键直达原厂服务等全新功能。 通过简单而智能的服务，实现设备智能化产业升级。
+
+## uni-app for Harmony
+
+接下来我们以Mac电脑为例，开始今天的演示。
+
+### 开发环境要求
+
+- [DevEco Studio 5.0.1 Release](https://developer.huawei.com/consumer/cn/download/) 
+- 鸿蒙系统版本 API 12 以上 （DevEco-Studio有内置鸿蒙模拟器）
+- HBuilderX-4.27+ [下载地址](https://www.dcloud.io/hbuilderx.html)
+
+大家先把上面两个工具安装配置好，这是最简单的，我们不过多阐释。操作完上面的步骤，我们就开始后面的内容。
+
+## Windows系统如使用模拟器则需要开启以下功能
+
+打开控制面板 - 程序与功能 - 开启以下功能
+
+1. Hyper-V
+2. Windows 虚拟机监控程序平台
+3. 虚拟机平台
+
+注意: 需要win10专业版或win11专业版才能开启以上功能，家庭版需先升级成专业版或企业版
+
+![img](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/1720085210915b1knhu7l3u8.png)
+
+## 启动鸿蒙模拟器
+
+![image-20240822123436957](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822123436957.png)
+
+## 连接鸿蒙真机
+
+**注意：真机需要鸿蒙系统版本 API 12 以上**
+
+打开鸿蒙手机开发者模式，开启USB调试，通过USB线连接电脑，在此处选择你的手机名称，再启动项目即可，如果提示需要先签名，则进行签名。
+
+### 配置签名
+
+点击 DevEco-Studio 上方菜单 File - Project Structure...
+
+![img](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/1720087126462d9133uo0hmg.png)
+
+在弹出的窗体中选择 Project - Signing Configs 并打钩 Automatically generate signature，即可自动生成签名
+
+![image-20240822084623294](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822084623294.png)
+
+### 配置 HBuilderX settings.json
+
+打开HBuilderX，点击上方菜单 - 工具 - 偏好设置，在出现的弹窗右侧窗体新增如下配置。
+
+![image-20240822123749132](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822123749132.png)
+
+```
+{
+"harmony.devTools.path" : "/Applications/DevEco-Studio.app/"
+}
+```
+
+
+
+![image-20240822085926652](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822085926652.png)
+
+上面的报错就用下面的
+
+```
+{
+"harmony.devTools.path" : "/Applications/DevEco-Studio.app/Contents/MacOS/devecostudio"
+}
+```
+
+
+
+![image-20240822093219873](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822093219873.png)
+
+![image-20240822085956380](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822085956380.png)
+
+接下来就进入正题
+
+### 配置 uni-app 工程
+
+选择新建项目
+
+![image-20240822090402153](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822090402153.png)
+
+HBuilderX 新建一个空白的 uniapp 项目，选vue3
+
+![image-20241217222553661](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241217222553661.png)
+
+
+
+### 编译 uni-app 到鸿蒙
+
+点击 HBuilderX 上方【运行】菜单，运行到鸿蒙 DevEco Studio
+
+
+
+![image-20241024121058545](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024121058545.png)
+
+在 DevEco-Studio 重新编译或运行
+
+先等待 HBuilderX 编译完成，然后打开 DevEco-Studio，点击运行，下面这个报错是HBuilderX settings.json里的路径有问题，请检查。
+
+
+
+![image-20240822092157536](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822092157536.png)
+
+然后重新启动
+
+![image-20240822124233531](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822124233531.png)
+
+
+
+【首次运行】此时如果是第一次运行本项目会在项目根目录下生成harmony-configs目录用于存放鸿蒙配置文件。
+
+![image-20241024121357041](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024121357041.png)
+
+【首次运行】配置签名信息、包名到鸿蒙配置文件内
+
+项目的根目录下有一个 `harmony-configs` 目录，每当执行跟鸿蒙相关的操作时，HX 都会检查这个目录，如果目录不存在则会自动创建。 新版本（4.29+）还会检查与 HX 当前版本的内置鸿蒙工程模板是否匹配，如果版本不匹配（比如 HX 升级到新版本时）则会提示用户把需要更新的内容合并到目录中。
+
+所有属于鸿蒙工程的配置调整，都可以写在 `harmony-configs` 目录下，具体内容可以参照鸿蒙的相关文档。其中常用内容有：
+
+- 应用包名
+
+  在 `harmony-configs/AppScrope/app.json5` 中修改 `app.bundleName`
+
+  注意：HX 4.31+ 同时支持在项目的 `manifest.json` 里面以图形界面修改鸿蒙配置（包括包名），如果在那里做了设置，将优先于 `harmony-configs/AppScrope/app.json5` 里面的 `app.bundleName`。
+
+- 运行权限
+
+  在 `harmony-configs/entry/src/main/module.json5` 中修改 `module.requestPermissions`
+
+- 数字签名证书相关信息
+
+  在 `harmony-configs/build-profile.json5` 中修改 `app.signingConfigs`
+
+
+
+### 证书签名配置指南
+
+**注意：配置签名需要先启动模拟器或连接真机后才能配置**
+
+点击 DevEco-Studio 上方菜单 File - Project Structure...
+
+
+
+![image-20241024122330602](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024122330602.png)
+
+**生成运行调试证书和签名**
+
+在弹出的窗体中选择 Project - Signing Configs，并打钩 Automatically generate signature，即可自动生成签名
+
+![image-20241024122533451](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024122533451.png)
+
+不管是运行证书还是发布证书，生成的签名在文件 build-profile.json5 内
+
+![image-20241024122634579](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024122634579.png)
+
+将它复制到你的 uni-app 项目根目录的 `harmony-configs/build-profile.json5` 的 signingConfigs 配置中
+
+![image-20241024123459288](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024123459288.png)
+
+
+
+## 关于调试用的数字签名证书的配置
+
+参考 [申请调试证书](https://developer.huawei.com/consumer/cn/doc/app/agc-help-add-debugcert-0000001914263178)
+
+在使用模拟器进行调试运行的时候，一般是不需要做数字签名的，但如果是用真机进行调试运行，或者业务代码用到了 ACL 权限，那么就需要申请并配置一个**调试证书**用于数字签名。
+
+数字签名证书需要配置到 `harmony-configs/build-profile.json5` 中，这个文件等同于一个普通的鸿蒙工程中对应的文件。
+
+为了便于操作，可以用 DevEco Studio 创建一个简单的鸿蒙工程（注意设置好正确的应用包名 `bundleName`），在里面完成申请证书的操作， 具体方法可参考 [自动签名](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-signing-V5#section18815157237)， 然后把 `build-profile.json5` 文件中 `app.signingConfigs` 的内容复制到 `harmony-configs/build-profile.json5` 中。
+
+通过 DevEco Studio 申请得到的证书，缺省会保存到电脑的用户目录下，在 Windows 系统中一般是 `%USERPROFILE%\.ohos\config`，在 Mac 系统中一般是 `~/.ohos/config`。 配置信息中包含的三个文件缺省都是采用绝对路径来表示，也可以把这些文件移到 `harmony-configs` 目录下，这样就可以使用相对路径来表示，相对于 `harmony-configs` 目录。 如果要移动证书文件的位置，需注意跟这三个文件一起的还有一个名为 `material` 的目录，也要一起移动。
+
+
+
+![image-20240822124312787](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20240822124312787.png)
+
+### 如何修改应用名称、图标、权限等信息
+
+参考鸿蒙官方文档：[应用/组件级配置](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/application-component-configuration-stage-V5)
+
+
+
+
+
+### 使用uts调用鸿蒙原生API
+
+uni-app在Android和iOS平台，支持uts插件和App原生语言插件。目前App原生语言插件已经停止维护。uts插件是主推的扩展方式。
+
+鸿蒙系统有很多原生API，可以通过uts插件方式接入，被uni-app调用。大家可以期待一下后面的内容。
+
+## 参考
+
+- [什么是uni-app](https://uniapp.dcloud.net.cn/)
+
+- [开发指导](https://zh.uniapp.dcloud.io/tutorial/harmony/dev.html)
+
+- [uts插件介绍](https://doc.dcloud.net.cn/uni-app-x/plugin/uts-plugin.html)
+- [uts插件鸿蒙开发专题](https://doc.dcloud.net.cn/uni-app-x/plugin/uts-for-harmony.html)
+
+- uni-app官网文档已经支持转鸿蒙app的指导：https://uniapp.dcloud.net.cn/tutorial/harmony/dev.html
+
+## 关于坚果派
+
+坚果派社区由小波、狼哥等人创建，团队拥有26个华为HDE以及2700+HarmonyOS开发者，以及若干其他领域的三十余位万粉博主/UP专注于分享的技术包括HarmonyOS/OpenHarmony，仓颉、ArkUI-X，元服务，服务卡片，AI、BlueOS操作系统、团队成员聚集在北京，上海，南京，深圳，广州，苏州、长沙、宁夏等地，目前自研应用200款，三方库68个，鸿蒙原生应用课程500+。持续助力鸿蒙生态繁荣发展。社区地址：https://www.nutpi.net/
+
+加入坚果派，可以添加17752170152。
+
+
+
+## 报错处理：
+
+
+
+### 报错 `未正确配置鸿蒙应用的包名`
+
+应该在 `manifest.json` 的【鸿蒙配置】中设置正确的包名，具体要求请参考 [配置应用包名](https://developer.huawei.com/consumer/cn/doc/app/agc-help-createharmonyapp-0000001945392297)
+
+
+
+
+
+### 报错 `运行所需的权限没有签名授权`
+
+https://uniapp.dcloud.net.cn/tutorial/run/run-app-harmony.html#permissions-failed
+
+![image-20241024140850551](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241024140850551.png)
+
+
+
+### 报错 `没有签名无法安装`
+
+当运行到鸿蒙时，如果选择真机为运行设备，则必须配置好数字签名证书，否则无法安装到真机上。
+
+
+
+
+
+![image-20241217230100149](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/image-20241217230100149.png)
+
+
+
+是把unpackage/debug里面的鸿蒙文件夹里面的文件都复制到harmony-configs文件夹里面吗
+
+我只复制的4个文件：AppScope、entry、build-profile.json5、oh-package.json5，entry中的build没复制。如果需要其他文件也可以复制
+
+
+
+
+
+
+
+![img](https://luckly007.oss-cn-beijing.aliyuncs.com/uPic/1734448542669669b4d27590bc94a3aaf3da8..png)
+
+
+
+这个是 harmony-configs/build-profile.json5 文件内容与新版本的鸿蒙工程模板不匹配导致的，删除 harmony-configs 目录和 unpackage 目录，然后重试。
