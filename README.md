@@ -26,11 +26,9 @@
 
 ### 勘误
 
-笔者写这本电子书使用的 SDK 是 NEXT 版本（API 12，5.0.0.71），由于ArkUI开发框架在不断更新中，本书的部分内容可能会和新版本的不一致，读者以最新的版本为准，另外由于时间仓促，本书难免有错误之处，如果读者发现错误欢迎在 [https://gitee.com/ark-ui/arkui_in_action](https://gitee.com/ark-ui/arkui_in_action) 上提  **Issue**，也可以加 QQ 群（[695438501](https://qm.qq.com/cgi-bin/qm/qr?k=YBDKMU9Lt309QL_I1Lfa2jVpGwx65VSR&jump_from=webapi)）反馈问题或者交流技术。
-
 
 
 ### 致谢
 
-笔者写这本电子书的时候主要参考 OpenHarmony /uniapp官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈，感谢 OpenHarmony 的专家们给做了耐心解答。另外非常感谢在 [https://gitcode.com/nutpi/uniapp_Harmony](https://gitcode.com/nutpi/uniapp_Harmony ) 上和 QQ （[695438501](https://qm.qq.com/cgi-bin/qm/qr?k=YBDKMU9Lt309QL_I1Lfa2jVpGwx65VSR&jump_from=webapi)）群里给我反馈问题的小伙伴，最后感谢所有为 OpenHarmony 生态建设做出贡献的人，你们是最棒的！
+笔者写这本电子书的时候主要参考 OpenHarmony /uniapp官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈
 

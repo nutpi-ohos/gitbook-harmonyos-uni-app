@@ -1,17 +1,5 @@
 # 从开发者视角看 uniapp 与 Flutter 的差异
 
-
-
-
-
-石总
-
-
-
-
-
-
-
 uniapp 与 Flutter 是当前非常流行的两种跨平台移动应用开发框架。uniapp 是一种使用 Vue.js 开发所有前端应用的框架，可以方便地开发跨平台应用，并可以发布到 Android、iOS、Web、H5、小程序等多个平台。而 Flutter 是由 Google 推出的，基于 Dart 语言的移动应用开发框架，以其强大的性能和流畅的用户体验而闻名。
 
 ```markdown
@@ -91,8 +79,6 @@ export default {
 # 在HBuilderX中，选择“发行”->“原生App云打包”
 # (此处省略具体打包和发布步骤)
 ```
-
-1. Flutter 开发实战
 
 
 
