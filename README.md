@@ -30,5 +30,7 @@
 
 ### 致谢
 
-笔者写这本电子书的时候主要参考 OpenHarmony /uniapp官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈
+笔者写这本电子书的时候主要参考 OpenHarmony /uniapp官方文档以及 SDK 源码，期间发现问题后并及时在  OpenHarmony 相关仓库做了反馈，
+
+
 

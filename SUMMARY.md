@@ -1,7 +1,7 @@
 # 目录
 
 * [1.前言](README.md)
-* [2.为什么要这个专栏？](为什么要写博客.md)
+* [2.为什么要这个专栏？](./chapter2/1.为什么.md)
 * 3.uniapp开发鸿蒙
   - [3.1背景](./chapter3/14.背景.md)
   - [3.2优势](./chapter3/15.优势.md)
@@ -26,3 +26,5 @@
   - [3.21调用鸿蒙原生组件](./chapter3/21.调用鸿蒙原生组件.md)
   - [3.22从开发者视角看 uniapp 与 Flutter 的差异](./chapter3/22.从开发者视角看 uniapp 与 Flutter 的差异.md)
   - [3.23uniappforHarmony学习路线](./chapter3/23.uniappforHarmony学习路线.md)
+* 4.实战项目1
+  - 
