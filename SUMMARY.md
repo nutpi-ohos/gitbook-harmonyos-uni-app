@@ -27,4 +27,4 @@
   - [3.22从开发者视角看 uniapp 与 Flutter 的差异](./chapter3/22.从开发者视角看 uniapp 与 Flutter 的差异.md)
   - [3.23uniappforHarmony学习路线](./chapter3/23.uniappforHarmony学习路线.md)
 * 4.实战项目1
-  - 
+  - [4.1 uni-app x 跨平台实战：从 0 到 1 开发 HarmonyOS 5 鸿蒙原生应用](./chapter4/1.uni-app x 跨平台实战：从 0 到 1 开发 HarmonyOS 5 鸿蒙原生应用.md)
