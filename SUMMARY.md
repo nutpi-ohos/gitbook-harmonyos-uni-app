@@ -15,7 +15,7 @@
   - [3.10目前支持鸿蒙手机](./chapter3/8.目前支持鸿蒙手机.md)
   - [3.11uniapp-x项目开发鸿蒙支持调试啦](./chapter3/9.uniapp-x项目开发鸿蒙支持调试啦.md)
   - [3.12uniapp和flutter你会选哪个来开发鸿蒙](./chapter3/10.uniapp和flutter你会选哪个来开发鸿蒙.md)
-  - [3.13Flutter与uni-app的深度对比：鸿蒙开发的最佳选择竟是原生开发](./chapter3/11F lutter 与 uni-app 的深度对比：鸿蒙开发的最佳选择竟是原生开发.md)
+  - [3.13Flutter与uni-app的深度对比：鸿蒙开发的最佳选择竟是原生开发](./chapter3/11.Flutter与uni-app的深度对比：鸿蒙开发的最佳选择竟是原生开发.md.md)
   - [3.14uniapp版本更新](./chapter3/12.uniapp版本更新.md)
   - [3.15HBuilderX 4.62开始，uni-app支持嵌入鸿蒙原生组件](./chapter3/13.HBuilderX 4.62 开始，uni-app 支持嵌入鸿蒙原生组件.md)
   - [3.16uni-app x 已经完成鸿蒙等主流平台全覆盖](./chapter3/16.uni-app x 已经完成鸿蒙等主流平台全覆盖.md)
