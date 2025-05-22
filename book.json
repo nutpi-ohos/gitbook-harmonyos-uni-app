@@ -1,6 +1,6 @@
 {
-  "title": "Flutter for Harmony教程",
-  "description": "Flutter for Harmony电子书教程",
+  "title": "uniapp/uniapp-x for Harmony教程",
+  "description": "uniapp/uniapp-x for Harmony电子书教程",
   "author": "坚果派",
   "language": "zh-hans",
   "root": ".",
@@ -111,12 +111,12 @@
       "nav": [
         {
           "target": "_blank",
-          "url": "https://www.gitbook.com/",
+          "url": "https://www.nutpi.net/",
           "name": "坚果派官网"
         },
         {
           "target": "_blank",
-          "url": "https://www.npmjs.com/package/package",
+          "url": "https://www.arkui.club/",
           "name": "ArkUI实战"
         },
         {
@@ -126,7 +126,7 @@
         },
         {
           "target": "_blank",
-          "url": "https://blog.51cto.com/jianguo",
+          "url": "https://gitcode.com/nutpi",
           "name": "OpenHarmony应用开发"
         }
       ],
