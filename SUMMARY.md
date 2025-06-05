@@ -32,4 +32,13 @@
   - 5.1二十四节气实战案例
 * 插件开发指南
   - 
+* 6.UTS插件开发
+  - [6.1 UTS开发鸿蒙插件](./chapter6/1.UTS开发鸿蒙插件.md)
+  - [6.2 开发uts插件](./chapter6/2.开发uts插件.md)
+  - [6.3 新建鸿蒙插件](./chapter6/3.新建鸿蒙插件.md)
+  - [6.4 鸿蒙使用插件](./chapter6/4.鸿蒙使用插件.md)
+* 7.鸿蒙插件实战
+  - [7.1 开发鸿蒙插件](./chapter7/1.开发鸿蒙插件.md)
+  - [7.2 uniappx插件nutpi-idcard开发与使用指南](./chapter7/2.uniappx插件nutpi-idcard 开发与使用指南（适配鸿蒙）.md)
+  - [7.3 OpenHarmony与HarmonyOS兼容性](./chapter7/66.md)
 
