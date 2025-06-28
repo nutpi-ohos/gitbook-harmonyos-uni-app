@@ -30,8 +30,6 @@
   - [4.1 uni-app x 跨平台实战入门：从 0 到 1 开发 HarmonyOS 5 鸿蒙原生应用](./chapter4/1.uni-app_x跨平台实战入门：从0到1开发HarmonyOS_5鸿蒙原生应用.md)
 * 5.二十四节气
   - 5.1二十四节气实战案例
-* 插件开发指南
-  - 
 * 6.UTS插件开发
   - [6.1 UTS开发鸿蒙插件](./chapter6/1.UTS开发鸿蒙插件.md)
   - [6.2 开发uts插件](./chapter6/2.开发uts插件.md)
@@ -40,5 +38,8 @@
 * 7.鸿蒙插件实战
   - [7.1 开发鸿蒙插件](./chapter7/1.开发鸿蒙插件.md)
   - [7.2 uniappx插件nutpi-idcard开发与使用指南](./chapter7/2.uniappx插件nutpi-idcard 开发与使用指南（适配鸿蒙）.md)
-  - [7.3 OpenHarmony与HarmonyOS兼容性](./chapter7/66.md)
+  - [7.3 chinese-number-format插件](./chapter7/3.chinese-number-format插件.md)
+  - [7.4 calendar插件](./chapter7/4.calendar插件.md)
+  - [7.5 HBuilderX中适配鸿蒙插件的安装使用指南](./chapter7/5.HBuilderX 中适配鸿蒙插件的安装使用指南.md)
+  - [7.6 OpenHarmony与HarmonyOS兼容性](./chapter7/OpenHarmony5.0跟华为HarmonyOS之间的应用生态兼容情况.md)
 
