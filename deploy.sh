@@ -13,10 +13,10 @@ git commit -m "$msg"
 # Push source and build repos.
 git push    origin master 
 # Push source and build repos.
-git push    origin gitee
-git push    origin github
+git push     gitee
+git push     github
 
-git push    origin gitcode
+git push     gitcode
 
 
 
