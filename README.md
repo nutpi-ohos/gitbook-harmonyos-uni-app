@@ -1,6 +1,6 @@
 ## 前言
 
-关注到目前很多人都很是关注uniapp For Harmony 于是集合坚果派的力量，利用业余时间写了这本入门的《uniapp For Harmony 》电子书并把它挂到网站上，希望能给读者带来一点帮助，也算为 OpenHarmony 和HarmonyOS以及整个大的鸿蒙生态的发展做一点贡献。
+关注到目前很多人都很是关注uniapp For Harmony 于是集合坚果派的力量，利用业余时间写了这本入门的《[**鸿蒙版uniapp实战**](https://gitcode.com/nutpi/gitbook-harmonyos-uni-app) 》电子书并把它挂到网站上，希望能给读者带来一点帮助，也算为 OpenHarmony 和HarmonyOS以及整个大的鸿蒙生态的发展做一点贡献。
 
 
 
